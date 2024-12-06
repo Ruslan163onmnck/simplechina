@@ -1,0 +1,118 @@
+header {
+    display: flex;
+    justify-content: center; /* Центровка по горизонтали */
+    align-items: center;    /* Центровка по вертикали */
+    flex-direction: row; /* Расположить элементы вертикально */
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #000; /* Цвет текста */
+    text-align: center;
+}
+
+#top_logo {
+    max-width: 300px; /* Максимальная ширина логотипа */
+    width: 100%; /* Логотип растягивается до размера контейнера */
+    height: auto; /* Сохраняем пропорции */
+    border-radius: 20px;
+}
+
+.asu_photos {
+    max-width: 300px; /* Максимальная ширина логотипа */
+    width: 100%; /* Логотип растягивается до размера контейнера */
+    height: auto; /* Сохраняем пропорции */
+    border-radius: 20px;
+}
+
+
+#top_menu li, #bot_menu li {
+    display: inline;
+}
+
+#top_menu, #bot_menu {
+        list-style: none; /* Убираем маркеры у списка */
+        display: flex;
+        justify-content: center; /* Центровка списка */
+        align-items: center;
+        gap: 20px;
+        color: #333333;
+        background-color: cornflowerblue;
+}
+
+
+
+/* Основные стили для секций */
+#main_info {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+    max-width: 1200px; /* Ограничиваем ширину */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Лёгкая тень */
+    border-radius: 10px; /* Скруглённые углы */
+}
+
+#main_info article {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#main_info h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+#main_info p {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
+}
+
+#main_info ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#main_info ul li {
+    margin-bottom: 5px;
+}
+
+/* Общие стили для текста */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #222222;
+    margin-top: 20px;
+}
+
+body,footer, header {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:  'China','Times New Roman', Times, serif;
+}
+
+@font-face {
+    font-family: "China";
+    src: url("./fonts/ChinaCyr.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
