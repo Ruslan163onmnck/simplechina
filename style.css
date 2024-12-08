@@ -1,5 +1,5 @@
 /* Общие стили */
-body, footer, header {
+body, footer, header{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body, footer, header {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'China', 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
 }
 
 header {
@@ -43,7 +43,7 @@ footer {
     width: 100%;
     height: auto;
     border-radius: 20px;
-    
+    padding: 20px;
 }
 
 .logo {
@@ -80,11 +80,12 @@ footer {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     font-size: 36px;
     color: #222222;
     margin-top: 20px;
+    font-family: 'China';
 }
 
 #connect_links {
@@ -150,3 +151,10 @@ form button:hover {
     }
 }
 
+@font-face {
+    font-family: "China";
+    src: url("./fonts/ChinaCyr.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
